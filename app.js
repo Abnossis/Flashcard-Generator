@@ -6,7 +6,7 @@ var ClozeFlashcard = require('./ClozeCard.js');
 var inquirer = require('inquirer');
 // require fs
 var fs = require('fs');
-//===========================================================//
+
 inquirer.prompt([{
     name: 'command',
     message: 'What would you like to do?',
@@ -23,7 +23,7 @@ inquirer.prompt([{
         showCards();
     }
 });
-//===========================================================//
+
 var addCard = function() {
     // get user input
     inquirer.prompt([{
@@ -103,7 +103,7 @@ var addCard = function() {
         }
     });
 };
-//===========================================================//
+
 var whatsNext = function() {
     // get user input
     inquirer.prompt([{
@@ -128,7 +128,7 @@ var whatsNext = function() {
         }
     });
 };
-//===========================================================//
+
 var showCards = function() {
     // read the log.txt file
     fs.readFile('./log.txt', 'utf8', function(error, data) {
@@ -145,7 +145,7 @@ var showCards = function() {
         showQuestion(questions, count);
     });
 };
-//===========================================================//
+
 var showQuestion = function(array, index) {
     question = array[index];
     var parsedQuestion = JSON.parse(question);
@@ -175,4 +175,3 @@ var showQuestion = function(array, index) {
         }
     });
 };
-//===========================================================//

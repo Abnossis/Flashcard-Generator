@@ -1,0 +1,22 @@
+{
+  "name": "flashcard-generator",
+  "version": "1.0.0",
+  "description": "Generator of flashcards",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abnossis/Flashcard-Generator.git"
+  },
+  "author": "Jose Cuellar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abnossis/Flashcard-Generator.git"
+  },
+  "homepage": "https://github.com/Abnossis/Flashcard-Generator#readme",
+  "dependencies": {
+    "inquirer": "^2.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+{"text":"r","cloze":"r","clozeDeleted":"_____","type":"cloze"};{"front":"is this app finally working","back":"yes","type":"basic"};{"front":"what is the capital of Spain?","back":"Madrid","type":"basic"};{"front":"Are you afraaid of the dark?","back":"No","type":"basic"};

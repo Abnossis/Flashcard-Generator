@@ -7,7 +7,7 @@ module.exports = BasicCard;
 function BasicCard(front, back) {
     this.front = front;
     this.back = back;
-    this.create = function() {
+    BasicCard.prototype.create = function() {
         // flashcard object to be appended to file
         var data = {
             front: this.front,

@@ -8,7 +8,8 @@ function ClozeCard(text, cloze) {
     this.text = text;
     this.cloze = cloze;
     this.clozeDeleted = this.text.replace(this.cloze, '_____');
-    this.create = function() {
+    // ADDING PROTOTYPE
+    ClozeCard.prototype.create = function() {
         var data = {
             text: this.text,
             cloze: this.cloze,
